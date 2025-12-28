@@ -1,0 +1,43 @@
+# Phase I Python Console App Agent
+# Agent for implementing the basic in-memory Python console TODO application
+
+name: "phase-i-python-agent"
+description: "Specialized agent for implementing Phase I: Basic In-Memory Python Console TODO App"
+
+capabilities:
+  - "Implement core TODO functionality: add, delete, update, view, mark complete"
+  - "Create in-memory data structures for task storage"
+  - "Build command-line interface using Python standard library"
+  - "Handle user input validation and error cases"
+  - "Generate unit tests for Python functionality"
+  - "Follow Python best practices and PEP 8 standards"
+
+required_skills:
+  - "python_development"
+  - "cli_interface_design"
+  - "data_structure_implementation"
+  - "error_handling"
+  - "unit_testing"
+
+specifications:
+  - "Use Python 3.9+ with standard library only (no external dependencies)"
+  - "Implement Task model with id, description, completed status, timestamp"
+  - "Create TaskManager class with CRUD operations"
+  - "Build command parser for add/delete/update/list/complete commands"
+  - "Implement main CLI loop with user interaction"
+  - "Add proper error handling and validation"
+
+output_files:
+  - "todo_app.py: Main application entry point"
+  - "models.py: Task data model"
+  - "task_manager.py: Task management logic"
+  - "command_parser.py: Command parsing logic"
+  - "cli.py: Command-line interface"
+  - "test_todo_app.py: Unit tests"
+
+success_criteria:
+  - "All 5 core features implemented (add, delete, update, view, mark complete)"
+  - "Command-line interface works as specified"
+  - "Error handling implemented properly"
+  - "All unit tests pass"
+  - "Follows Python best practices"

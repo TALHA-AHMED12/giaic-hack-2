@@ -1,0 +1,56 @@
+# Python Development Skill
+# Skill for implementing Python applications following best practices
+
+name: "python_development"
+description: "Skill for developing Python applications with proper structure, testing, and documentation"
+
+requirements:
+  - "Python 3.9+ installed"
+  - "uv installed for package management and virtual environment"
+  - "Follow PEP 8 style guidelines"
+  - "Use type hints for all functions"
+  - "Implement proper error handling"
+  - "Write comprehensive unit tests"
+  - "Include docstrings for all functions and classes"
+
+implementation_guidelines:
+  - "Use uv for virtual environment management: uv venv, uv sync, uv run"
+  - "Use uv for package management: uv pip install, uv add, uv remove"
+  - "Use dataclasses for data models"
+  - "Implement proper logging"
+  - "Handle exceptions gracefully"
+  - "Follow SOLID principles"
+  - "Write maintainable and readable code"
+  - "Use context managers for resource management"
+
+testing_requirements:
+  - "Write unit tests for all functions"
+  - "Use pytest for testing framework"
+  - "Achieve minimum 80% code coverage"
+  - "Test edge cases and error conditions"
+  - "Implement integration tests for complex features"
+
+files_to_create:
+  - "main.py: Application entry point"
+  - "models.py: Data models and schemas"
+  - "services.py: Business logic implementation"
+  - "utils.py: Utility functions"
+  - "config.py: Configuration management"
+  - "tests/: Directory for test files"
+
+command_interface:
+  - "Create clear command-line interface"
+  - "Implement help and usage instructions"
+  - "Handle user input validation"
+  - "Provide clear error messages"
+  - "Implement graceful shutdown"
+
+validation_steps:
+  - "Use uv to run tests: uv run pytest"
+  - "Use uv to run linter: uv run flake8 or uv run pylint"
+  - "Use uv to run type checker: uv run mypy"
+  - "Run linter (flake8 or pylint)"
+  - "Execute all tests"
+  - "Check type hints with mypy"
+  - "Validate code coverage"
+  - "Review code structure and organization"

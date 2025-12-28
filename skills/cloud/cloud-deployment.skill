@@ -1,0 +1,78 @@
+# Cloud Deployment Skill
+# Skill for deploying applications to cloud platforms with advanced services
+
+name: "cloud_deployment"
+description: "Skill for deploying applications to cloud platforms with advanced services like event streaming and microservices runtime"
+
+requirements:
+  - "Cloud platform deployment (DigitalOcean, AWS, GCP)"
+  - "Event streaming with Apache Kafka"
+  - "Microservices runtime with Dapr"
+  - "Advanced monitoring and observability"
+  - "Distributed system patterns implementation"
+  - "Cloud-native security practices"
+
+event_streaming_implementation:
+  - "Set up Apache Kafka cluster"
+  - "Create topics for application events"
+  - "Implement event producers and consumers"
+  - "Handle event ordering and consistency"
+  - "Implement event replay mechanisms"
+  - "Monitor event processing metrics"
+
+dapr_integration:
+  - "Install and configure Dapr runtime"
+  - "Implement service invocation patterns"
+  - "Use Dapr state management"
+  - "Configure Dapr pub/sub for messaging"
+  - "Implement Dapr secrets management"
+  - "Set up Dapr observability"
+
+files_to_create:
+  - "doks/: DigitalOcean Kubernetes configurations"
+  - "kafka/: Kafka topic and consumer configurations"
+  - "dapr/: Dapr component configurations"
+  - "monitoring/: Advanced monitoring setup"
+  - "security/: Cloud security configurations"
+  - "scripts/: Cloud deployment automation"
+  - "backup/: Backup and recovery procedures"
+
+cloud_platform_requirements:
+  - "Set up managed Kubernetes cluster (DOKS)"
+  - "Configure load balancing and networking"
+  - "Implement auto-scaling policies"
+  - "Set up cloud storage and databases"
+  - "Configure CDN and caching"
+  - "Implement backup and disaster recovery"
+
+observability_setup:
+  - "Configure distributed tracing"
+  - "Set up centralized logging"
+  - "Implement metrics collection"
+  - "Create monitoring dashboards"
+  - "Configure alerting and notification"
+  - "Implement application performance monitoring"
+
+security_considerations:
+  - "Implement network security policies"
+  - "Configure identity and access management"
+  - "Handle secrets management securely"
+  - "Implement data encryption at rest and in transit"
+  - "Set up security scanning and monitoring"
+  - "Configure compliance reporting"
+
+testing_requirements:
+  - "Test distributed system behavior"
+  - "Validate event streaming functionality"
+  - "Verify Dapr integration works"
+  - "Test scaling behavior under load"
+  - "Validate security configurations"
+  - "Test disaster recovery procedures"
+
+validation_steps:
+  - "Verify cloud infrastructure is properly configured"
+  - "Test event streaming performance and reliability"
+  - "Validate Dapr service communication"
+  - "Review security configurations"
+  - "Verify monitoring and alerting systems"
+  - "Test backup and recovery procedures"

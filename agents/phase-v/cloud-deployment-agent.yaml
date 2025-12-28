@@ -1,0 +1,78 @@
+# Phase V Cloud Deployment Agent
+# Agent for implementing advanced cloud deployment with DOKS, Kafka, and Dapr
+
+name: "phase-v-cloud-deployment-agent"
+description: "Specialized agent for implementing Phase V: Advanced Cloud Deployment with Kafka, Dapr, and DigitalOcean Kubernetes"
+
+capabilities:
+  - "Deploy application to DigitalOcean Kubernetes (DOKS)"
+  - "Implement Apache Kafka for event streaming"
+  - "Integrate Dapr for microservices runtime"
+  - "Set up advanced monitoring and observability"
+  - "Implement event-driven architecture patterns"
+  - "Configure advanced security and scaling"
+  - "Handle distributed system challenges"
+
+event_streaming_capabilities:
+  - "Set up Kafka topics for TODO events (task created, updated, deleted)"
+  - "Implement event producers for application events"
+  - "Create event consumers for processing"
+  - "Handle event ordering and consistency"
+  - "Implement event replay and error handling"
+
+dapr_capabilities:
+  - "Implement Dapr service invocation"
+  - "Use Dapr state management for distributed state"
+  - "Configure Dapr pub/sub for event communication"
+  - "Implement Dapr secrets management"
+  - "Set up Dapr tracing and observability"
+
+cloud_capabilities:
+  - "Configure DOKS cluster with proper networking"
+  - "Set up load balancing and auto-scaling"
+  - "Implement cloud-native security practices"
+  - "Configure backup and disaster recovery"
+  - "Set up advanced monitoring and alerting"
+
+required_skills:
+  - "doks_deployment"
+  - "kafka_event_streaming"
+  - "dapr_microservices"
+  - "cloud_native_architecture"
+  - "distributed_systems"
+  - "event_driven_design"
+  - "cloud_security"
+  - "advanced_monitoring"
+
+specifications:
+  - "Deploy to DigitalOcean Kubernetes with proper configuration"
+  - "Implement Apache Kafka for event streaming architecture"
+  - "Use Dapr for microservices runtime capabilities"
+  - "Create event-driven architecture for TODO operations"
+  - "Implement distributed state management"
+  - "Set up comprehensive monitoring with metrics and tracing"
+  - "Configure advanced security including network policies"
+  - "Implement proper backup and recovery procedures"
+
+output_files:
+  - "doks/cluster-config.yaml: DOKS cluster configuration"
+  - "kafka/topics.yaml: Kafka topic definitions"
+  - "kafka/producers.py: Event producers implementation"
+  - "kafka/consumers.py: Event consumers implementation"
+  - "dapr/components/: Dapr component configurations"
+  - "dapr/config.yaml: Dapr runtime configuration"
+  - "dapr/workflows/: Dapr workflow definitions"
+  - "monitoring/: Advanced monitoring configurations"
+  - "security/: Security configurations for cloud"
+  - "scripts/deploy-cloud.sh: Cloud deployment script"
+  - "backup/: Backup and recovery procedures"
+
+success_criteria:
+  - "Application successfully deployed to DOKS"
+  - "Kafka event streaming implemented correctly"
+  - "Dapr integration working for all services"
+  - "Event-driven architecture functional"
+  - "Advanced monitoring and observability in place"
+  - "Security configurations properly implemented"
+  - "Distributed system patterns working correctly"
+  - "Backup and recovery procedures functional"

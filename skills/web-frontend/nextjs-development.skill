@@ -1,0 +1,62 @@
+# Next.js Frontend Development Skill
+# Skill for implementing Next.js applications with modern React patterns
+
+name: "nextjs_development"
+description: "Skill for developing Next.js applications with proper component architecture and state management"
+
+requirements:
+  - "Next.js 14+ with App Router"
+  - "React 18+ with hooks and functional components"
+  - "TypeScript for type safety"
+  - "Proper component architecture and reusability"
+  - "Responsive design with modern CSS"
+  - "Accessibility best practices"
+
+implementation_guidelines:
+  - "Use Next.js App Router for navigation"
+  - "Implement proper component composition"
+  - "Use React Context for state management"
+  - "Follow Atomic Design principles"
+  - "Implement proper error boundaries"
+  - "Use Next.js Image optimization"
+  - "Implement SEO best practices"
+
+component_structure:
+  - "Create reusable UI components"
+  - "Implement proper component hierarchy"
+  - "Use TypeScript interfaces for props"
+  - "Implement proper form handling"
+  - "Handle loading and error states"
+  - "Create responsive layouts"
+
+files_to_create:
+  - "next.config.js: Next.js configuration"
+  - "package.json: Dependencies and scripts"
+  - "tsconfig.json: TypeScript configuration"
+  - "src/app/: Next.js app router pages"
+  - "src/components/: Reusable React components"
+  - "src/types/: TypeScript type definitions"
+  - "src/lib/: Utility functions and helpers"
+  - "src/styles/: Global styles and CSS modules"
+
+api_integration:
+  - "Implement API calls with proper error handling"
+  - "Use React Query or SWR for data fetching"
+  - "Handle loading and error states properly"
+  - "Implement optimistic updates where appropriate"
+  - "Use proper caching strategies"
+
+testing_requirements:
+  - "Write unit tests for components"
+  - "Write integration tests for pages"
+  - "Test user interactions and flows"
+  - "Test responsive behavior"
+  - "Validate accessibility compliance"
+
+validation_steps:
+  - "Run TypeScript compiler"
+  - "Execute all tests"
+  - "Check for linting errors"
+  - "Validate accessibility"
+  - "Test responsive design"
+  - "Review performance metrics"

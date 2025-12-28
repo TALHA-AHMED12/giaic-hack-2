@@ -1,0 +1,68 @@
+# Phase IV Kubernetes Deployment Agent
+# Agent for implementing local Kubernetes deployment with Minikube
+
+name: "phase-iv-k8s-deployment-agent"
+description: "Specialized agent for implementing Phase IV: Local Kubernetes Deployment with Docker, Minikube, and Helm"
+
+capabilities:
+  - "Create Docker containers for all application components"
+  - "Set up Minikube for local Kubernetes cluster"
+  - "Create Helm charts for application deployment"
+  - "Implement kubectl-ai for Kubernetes automation"
+  - "Configure kagent for advanced Kubernetes operations"
+  - "Set up service discovery and networking"
+  - "Implement health checks and monitoring"
+
+containerization_capabilities:
+  - "Create optimized Docker images for frontend and backend"
+  - "Implement multi-stage builds for efficiency"
+  - "Handle environment-specific configurations"
+  - "Set up proper logging and monitoring"
+
+kubernetes_capabilities:
+  - "Create deployments, services, and ingress configurations"
+  - "Implement proper resource allocation and limits"
+  - "Set up persistent storage for database"
+  - "Configure horizontal pod autoscaling"
+  - "Implement service mesh patterns if needed"
+
+required_skills:
+  - "docker_containerization"
+  - "kubernetes_deployment"
+  - "minikube_setup"
+  - "helm_chart_development"
+  - "k8s_networking"
+  - "k8s_monitoring"
+  - "k8s_security"
+  - "kubectl_automation"
+
+specifications:
+  - "Create Dockerfiles for Next.js frontend and FastAPI backend"
+  - "Set up Minikube cluster with proper resource allocation"
+  - "Create Helm charts for easy deployment"
+  - "Implement kubectl-ai for advanced automation"
+  - "Use kagent for enhanced Kubernetes operations"
+  - "Configure proper service discovery and load balancing"
+  - "Implement health checks and readiness probes"
+  - "Set up monitoring and logging infrastructure"
+
+output_files:
+  - "docker/Dockerfile.frontend: Frontend container definition"
+  - "docker/Dockerfile.backend: Backend container definition"
+  - "k8s/minikube-setup.sh: Minikube setup script"
+  - "charts/todo-app/: Helm chart for TODO application"
+  - "k8s/deployments/: Kubernetes deployment configurations"
+  - "k8s/services/: Kubernetes service configurations"
+  - "k8s/ingress/: Ingress configuration"
+  - "k8s/configmaps/: Configuration maps"
+  - "k8s/secrets/: Secret configurations"
+  - "scripts/deploy-local.sh: Local deployment script"
+
+success_criteria:
+  - "Docker containers build and run properly"
+  - "Minikube cluster set up correctly"
+  - "Helm charts deploy application successfully"
+  - "All services accessible through ingress"
+  - "Health checks and monitoring implemented"
+  - "Resource allocation optimized"
+  - "Deployment automation working"

@@ -1,0 +1,45 @@
+# CLI Interface Design Skill
+# Skill for designing command-line interfaces with proper user interaction patterns
+
+name: "cli_interface_design"
+description: "Skill for designing command-line interfaces with proper user interaction patterns using uv for package management"
+
+requirements:
+  - "Python 3.9+ installed"
+  - "uv installed for package management and virtual environment"
+  - "Use argparse or click library for CLI parsing"
+  - "Implement clear help and usage instructions"
+  - "Handle user input validation"
+  - "Provide clear error messages"
+  - "Implement graceful shutdown"
+
+implementation_guidelines:
+  - "Use uv for virtual environment management: uv venv, uv sync, uv run"
+  - "Use uv for package management: uv pip install, uv add, uv remove"
+  - "Use argparse for simple CLIs or click for more complex ones"
+  - "Implement proper command structure and subcommands"
+  - "Handle different input types (strings, numbers, flags)"
+  - "Provide feedback during long operations"
+  - "Implement proper exit codes"
+
+ui_patterns:
+  - "Use consistent command naming conventions"
+  - "Provide both short and long options for flags"
+  - "Implement tab completion where appropriate"
+  - "Use colors for different types of output (errors, warnings, success)"
+  - "Provide progress indicators for long-running operations"
+
+testing_requirements:
+  - "Write unit tests for all CLI commands"
+  - "Test command-line argument parsing"
+  - "Test error handling for invalid inputs"
+  - "Use pytest for testing framework"
+  - "Achieve minimum 80% code coverage"
+
+validation_steps:
+  - "Use uv to run tests: uv run pytest"
+  - "Use uv to run linter: uv run flake8 or uv run pylint"
+  - "Use uv to run type checker: uv run mypy"
+  - "Test all CLI commands with various inputs"
+  - "Validate help text and usage instructions"
+  - "Verify proper error handling and exit codes"

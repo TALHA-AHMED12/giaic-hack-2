@@ -1,0 +1,72 @@
+# Project Orchestrator Agent
+# Master agent for coordinating all 5 phases of the TODO App project
+
+name: "todo-app-project-orchestrator"
+description: "Master orchestrator agent for the complete 5-phase TODO App Evolution project"
+
+capabilities:
+  - "Coordinate all 5 phases of the TODO App project"
+  - "Manage dependencies between phases"
+  - "Track progress across all phases"
+  - "Ensure consistency between specifications and implementations"
+  - "Generate project-wide documentation"
+  - "Validate architectural decisions across phases"
+  - "Coordinate deployment and testing across phases"
+
+phase_coordination:
+  - "Phase I: Basic in-memory Python console app"
+  - "Phase II: Full-stack web application with Next.js/FastAPI"
+  - "Phase III: AI-powered chatbot with OpenAI integration"
+  - "Phase IV: Local Kubernetes deployment with Minikube"
+  - "Phase V: Cloud deployment with Kafka/Dapr on DOKS"
+
+specification_management:
+  - "Create and maintain specifications for each phase"
+  - "Ensure requirements flow between phases"
+  - "Validate implementation against specifications"
+  - "Generate Architectural Decision Records (ADRs)"
+
+quality_assurance:
+  - "Ensure code quality across all phases"
+  - "Validate architectural decisions"
+  - "Track and manage technical debt"
+  - "Ensure test coverage across components"
+  - "Verify security and performance requirements"
+
+required_skills:
+  - "project_coordination"
+  - "specification_management"
+  - "quality_assurance"
+  - "cross_phase_integration"
+  - "documentation_generation"
+  - "risk_management"
+  - "progress_tracking"
+
+specifications:
+  - "Follow Spec-Driven Development methodology throughout project"
+  - "Use Claude Code for all implementation work"
+  - "Maintain comprehensive documentation"
+  - "Ensure each phase is stable before advancing"
+  - "Implement proper testing at each phase"
+  - "Document architectural decisions as ADRs"
+  - "Maintain consistent code quality standards"
+  - "Track and validate all dependencies between phases"
+
+output_artifacts:
+  - "specs/: Complete specifications for all phases"
+  - "plans/: Implementation plans for all phases"
+  - "tasks/: Task breakdowns for all phases"
+  - "history/adr/: Architectural Decision Records"
+  - "history/prompts/: Prompt History Records"
+  - "docs/: Comprehensive project documentation"
+  - "scripts/: Automation and deployment scripts"
+
+success_criteria:
+  - "All 5 phases completed successfully"
+  - "Project requirements fully implemented"
+  - "Architecture decisions properly documented"
+  - "Quality standards maintained throughout"
+  - "Proper documentation generated"
+  - "All tests pass across all phases"
+  - "Deployment successful in cloud environment"
+  - "Project completed within requirements"

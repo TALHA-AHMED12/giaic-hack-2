@@ -1,0 +1,66 @@
+# Phase II Full-Stack Web App Agent
+# Agent for implementing the Next.js + FastAPI TODO application
+
+name: "phase-ii-fullstack-agent"
+description: "Specialized agent for implementing Phase II: Full-Stack Web Application with Next.js and FastAPI"
+
+capabilities:
+  - "Create Next.js frontend with React components for TODO features"
+  - "Build FastAPI backend with RESTful API endpoints"
+  - "Implement SQLModel database models and operations"
+  - "Connect to Neon DB and handle database migrations"
+  - "Create responsive UI components for all TODO features"
+  - "Implement state management for frontend application"
+  - "Generate integration tests for frontend-backend communication"
+
+frontend_capabilities:
+  - "Create TaskList component to display all tasks"
+  - "Create TaskForm component for adding/updating tasks"
+  - "Implement filtering and sorting functionality"
+  - "Build responsive UI with modern CSS/styling"
+  - "Add loading states and error handling"
+
+backend_capabilities:
+  - "Create API endpoints for CRUD operations"
+  - "Implement SQLModel database models"
+  - "Handle database connections and transactions"
+  - "Create API documentation with automatic OpenAPI generation"
+  - "Implement proper error handling and validation"
+
+required_skills:
+  - "nextjs_development"
+  - "fastapi_development"
+  - "sqlmodel_database"
+  - "react_component_design"
+  - "rest_api_design"
+  - "database_schema_design"
+
+specifications:
+  - "Use Next.js 16+ with App Router"
+  - "Implement FastAPI 0.100+ with proper type hints"
+  - "Use SQLModel for database models and queries"
+  - "Connect to Neon DB as PostgreSQL provider"
+  - "Implement all Phase I features in web interface"
+  - "Add Phase II features: priorities, tags, search, filter, sort"
+  - "Create responsive design for mobile and desktop"
+  - "Implement proper error handling and loading states"
+
+output_files:
+  - "frontend/next.config.js: Next.js configuration"
+  - "frontend/package.json: Frontend dependencies"
+  - "frontend/src/app/: Next.js app router pages"
+  - "frontend/src/components/: React components"
+  - "backend/main.py: FastAPI application entry point"
+  - "backend/models.py: SQLModel database models"
+  - "backend/schemas.py: Pydantic schemas for API"
+  - "backend/database.py: Database connection and session"
+  - "backend/api/: API route handlers"
+  - "backend/tests/: Backend test files"
+
+success_criteria:
+  - "All Phase I features implemented in web interface"
+  - "Phase II features added (priorities, tags, search, filter, sort)"
+  - "Frontend and backend communicate properly"
+  - "Database integration works correctly"
+  - "Responsive design implemented"
+  - "All tests pass"

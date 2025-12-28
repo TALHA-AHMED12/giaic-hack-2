@@ -1,0 +1,51 @@
+# GitHub MCP Integration Skill
+# Skill for integrating with GitHub using MCP server
+
+name: "github_mcp_integration"
+description: "Skill for integrating with GitHub services using MCP server for repository management"
+
+requirements:
+  - "GitHub MCP server connection established"
+  - "Proper authentication tokens configured"
+  - "Repository access permissions verified"
+  - "Branch protection rules respected"
+  - "Pull request templates available"
+  - "Issue templates configured"
+
+capabilities:
+  - "Repository creation and management"
+  - "Branch operations (create, merge, delete)"
+  - "Pull request automation"
+  - "Issue tracking and management"
+  - "Commit message generation"
+  - "Release management"
+  - "Project board synchronization"
+
+implementation_guidelines:
+  - "Use conventional commit messages"
+  - "Follow branch naming conventions"
+  - "Respect repository protection rules"
+  - "Handle merge conflicts appropriately"
+  - "Generate meaningful commit messages"
+  - "Maintain proper pull request descriptions"
+
+files_to_create:
+  - ".github/pull_request_template.md: PR template"
+  - ".github/issue_templates/: Issue templates"
+  - ".github/workflows/: GitHub Actions workflows"
+  - "scripts/github-automation.py: Automation scripts"
+
+validation_steps:
+  - "Verify repository access permissions"
+  - "Test API connection and authentication"
+  - "Validate pull request creation"
+  - "Test issue creation and updates"
+  - "Verify branch operations work properly"
+  - "Validate release process automation"
+
+security_considerations:
+  - "Handle tokens securely"
+  - "Respect repository permissions"
+  - "Validate input to prevent injection"
+  - "Follow GitHub security best practices"
+  - "Audit all automated operations"

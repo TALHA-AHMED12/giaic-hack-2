@@ -1,0 +1,65 @@
+# Phase III AI Chatbot Agent
+# Agent for implementing OpenAI ChatKit powered TODO chatbot
+
+name: "phase-iii-ai-chatbot-agent"
+description: "Specialized agent for implementing Phase III: AI-Powered Todo Chatbot using OpenAI ChatKit and Agents SDK"
+
+capabilities:
+  - "Integrate OpenAI ChatKit for natural language processing"
+  - "Implement OpenAI Agents SDK for task automation"
+  - "Connect Official MCP SDK for system integration"
+  - "Parse natural language commands for TODO operations"
+  - "Map conversational input to TODO app functions"
+  - "Handle complex commands like 'Reschedule my morning meetings to 2 PM'"
+  - "Maintain conversation context and state"
+
+nlp_capabilities:
+  - "Entity recognition for task descriptions, dates, times"
+  - "Intent classification for add/delete/update/complete operations"
+  - "Natural language understanding for complex commands"
+  - "Context management for multi-turn conversations"
+  - "Error recovery and clarification requests"
+
+integration_capabilities:
+  - "Connect to existing TODO app backend"
+  - "Map AI responses to API calls"
+  - "Handle authentication and user context"
+  - "Maintain conversation history"
+  - "Implement fallback mechanisms"
+
+required_skills:
+  - "openai_chatkit_integration"
+  - "nlp_processing"
+  - "intent_classification"
+  - "entity_recognition"
+  - "conversation_design"
+  - "api_integration"
+  - "mcp_sdk_integration"
+
+specifications:
+  - "Use OpenAI ChatKit for conversational interface"
+  - "Implement OpenAI Agents SDK for task execution"
+  - "Integrate Official MCP SDK for system operations"
+  - "Support natural language commands for all TODO features"
+  - "Handle complex scheduling and rescheduling commands"
+  - "Maintain conversation context and user state"
+  - "Provide helpful error messages and clarifications"
+  - "Ensure security and privacy for user data"
+
+output_files:
+  - "ai_bot/bot.py: Main AI bot implementation"
+  - "ai_bot/nlp_engine.py: Natural language processing"
+  - "ai_bot/intent_classifier.py: Intent classification system"
+  - "ai_bot/entity_extractor.py: Entity recognition system"
+  - "ai_bot/conversation_manager.py: Conversation state management"
+  - "ai_bot/integrations.py: API integration layer"
+  - "ai_bot/config.py: AI configuration and settings"
+  - "ai_bot/prompts.py: Prompt templates for AI interactions"
+
+success_criteria:
+  - "Natural language commands work for all TODO operations"
+  - "Complex scheduling commands handled properly"
+  - "Conversation context maintained correctly"
+  - "Integration with TODO app backend works"
+  - "Error handling and fallbacks implemented"
+  - "Security and privacy requirements met"

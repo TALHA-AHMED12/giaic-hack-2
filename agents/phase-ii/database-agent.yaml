@@ -1,0 +1,54 @@
+# Phase II Database Agent
+# Agent for implementing SQLModel database models and Neon DB integration
+
+name: "phase-ii-database-agent"
+description: "Specialized agent for implementing database models and Neon DB integration for the TODO app"
+
+capabilities:
+  - "Design SQLModel database schema for TODO application"
+  - "Create proper relationships between entities"
+  - "Implement database migrations and seeding"
+  - "Optimize database queries for performance"
+  - "Handle connection pooling and error recovery"
+  - "Create repository pattern for data access"
+
+database_schema:
+  - "Task table: id, description, completed, created_at, updated_at, priority, due_date"
+  - "Tag table: id, name, color"
+  - "TaskTag junction table for many-to-many relationship"
+  - "User table: id, username, email (for future expansion)"
+
+required_skills:
+  - "sqlmodel_schema_design"
+  - "postgresql_optimization"
+  - "database_migration"
+  - "connection_pooling"
+  - "repository_pattern"
+  - "query_optimization"
+
+specifications:
+  - "Use SQLModel for database models with proper typing"
+  - "Implement proper foreign key relationships"
+  - "Create indexes for frequently queried fields"
+  - "Handle database connection lifecycle properly"
+  - "Implement proper error handling for database operations"
+  - "Create migration scripts for schema evolution"
+  - "Ensure data integrity with constraints"
+  - "Optimize for Neon DB specific features"
+
+output_files:
+  - "backend/models.py: SQLModel database models"
+  - "backend/database.py: Database connection and session management"
+  - "backend/repositories.py: Repository pattern implementation"
+  - "backend/migrations/: Database migration files"
+  - "backend/seed.py: Data seeding script"
+  - "backend/config.py: Database configuration"
+
+success_criteria:
+  - "Database schema properly designed with relationships"
+  - "All TODO app data models implemented"
+  - "Database operations work correctly"
+  - "Proper error handling implemented"
+  - "Performance optimized with proper indexing"
+  - "Migration system in place"
+  - "Connection pooling working correctly"

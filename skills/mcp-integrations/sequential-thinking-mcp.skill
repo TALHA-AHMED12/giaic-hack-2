@@ -1,0 +1,65 @@
+# Sequential Thinking MCP Integration Skill
+# Skill for managing complex reasoning using Sequential Thinking MCP server
+
+name: "sequential_reasoning"
+description: "Skill for managing complex sequential reasoning and multi-step problem solving using Sequential Thinking MCP server"
+
+requirements:
+  - "Sequential Thinking MCP server connection established"
+  - "Workflow engine properly configured"
+  - "State management system available"
+  - "Dependency tracking system available"
+  - "Progress monitoring tools configured"
+  - "Error recovery mechanisms in place"
+
+capabilities:
+  - "Multi-step planning and decomposition"
+  - "Dependency tracking and management"
+  - "Sequential execution orchestration"
+  - "State tracking and management"
+  - "Progress monitoring and reporting"
+  - "Error recovery and alternative paths"
+  - "Conditional execution logic"
+
+implementation_guidelines:
+  - "Maintain logical sequence of operations"
+  - "Handle dependencies properly"
+  - "Track execution state accurately"
+  - "Implement proper error handling"
+  - "Manage resource allocation"
+  - "Handle parallel execution appropriately"
+  - "Maintain execution consistency"
+
+workflow_management:
+  - "Plan decomposition and sequencing"
+  - "Task dependency resolution"
+  - "Execution path determination"
+  - "Progress tracking and reporting"
+  - "Resource allocation management"
+  - "Error recovery procedures"
+  - "Alternative execution paths"
+
+files_to_create:
+  - "workflows/: Sequential workflow definitions"
+  - "state/: Execution state storage"
+  - "dependencies/: Task dependency graphs"
+  - "monitoring/: Progress tracking files"
+  - "recovery/: Error recovery procedures"
+
+validation_steps:
+  - "Verify sequential execution correctness"
+  - "Test dependency resolution"
+  - "Validate error recovery procedures"
+  - "Check progress tracking accuracy"
+  - "Test alternative execution paths"
+  - "Verify resource allocation"
+  - "Validate state management"
+
+reasoning_patterns:
+  - "Step-by-step problem decomposition"
+  - "Dependency-aware execution"
+  - "Conditional logic implementation"
+  - "Stateful operation management"
+  - "Progressive validation and verification"
+  - "Adaptive planning based on results"
+  - "Error-aware execution flow"

@@ -1,0 +1,52 @@
+# GitHub Integration Agent for Phase I
+# Agent for managing GitHub operations during Phase I development
+
+name: "github-integration-agent-phase-i"
+description: "Agent for managing GitHub operations during Phase I Python Console App development using MCP server integration"
+
+capabilities:
+  - "Create and manage GitHub repositories"
+  - "Handle pull requests and code reviews"
+  - "Manage GitHub issues and project boards"
+  - "Automate GitHub workflows and actions"
+  - "Handle version control operations"
+  - "Generate release notes and tags"
+
+mcp_integration:
+  - "Use GitHub MCP server for repository operations"
+  - "Integrate with GitHub API through MCP"
+  - "Handle authentication and permissions"
+  - "Automate common GitHub tasks"
+  - "Generate proper commit messages following conventions"
+  - "Manage branch strategies and merging"
+
+required_skills:
+  - "github_mcp_integration"
+  - "git_workflow_management"
+  - "pull_request_automation"
+  - "issue_tracking"
+  - "version_control_best_practices"
+
+specifications:
+  - "Use GitHub MCP server for all GitHub operations"
+  - "Follow conventional commit messages"
+  - "Maintain proper branching strategy"
+  - "Automate pull request creation and review"
+  - "Handle merge conflicts appropriately"
+  - "Generate proper release notes"
+  - "Maintain project board synchronization"
+
+integration_with_phase:
+  - "Automate commits for Phase I implementation"
+  - "Create issues for TODO features in Phase I"
+  - "Manage pull requests for code review"
+  - "Track progress using GitHub projects"
+  - "Generate release tags for Phase I completion"
+
+success_criteria:
+  - "GitHub operations automated through MCP"
+  - "Proper version control maintained"
+  - "Pull requests created and managed automatically"
+  - "Issues tracked and updated"
+  - "Project board synchronized"
+  - "Release process automated"

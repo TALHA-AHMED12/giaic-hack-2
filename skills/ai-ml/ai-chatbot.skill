@@ -1,0 +1,71 @@
+# AI Chatbot Development Skill
+# Skill for implementing AI-powered chatbots with natural language processing
+
+name: "ai_chatbot_development"
+description: "Skill for implementing AI-powered chatbots using OpenAI APIs and natural language processing"
+
+requirements:
+  - "OpenAI API integration (ChatKit, Agents SDK)"
+  - "Natural language understanding capabilities"
+  - "Proper conversation state management"
+  - "Secure handling of API keys and tokens"
+  - "Error handling and fallback mechanisms"
+  - "Integration with existing application APIs"
+
+nlp_capabilities:
+  - "Intent classification for user commands"
+  - "Entity recognition for extracting information"
+  - "Context management for multi-turn conversations"
+  - "Natural language generation for responses"
+  - "Support for complex command parsing"
+  - "Fallback to human support when needed"
+
+integration_requirements:
+  - "Connect to existing TODO application APIs"
+  - "Map natural language to API operations"
+  - "Handle authentication and user context"
+  - "Maintain conversation history"
+  - "Implement proper error recovery"
+  - "Support for multiple conversation channels"
+
+files_to_create:
+  - "bot.py: Main chatbot implementation"
+  - "nlp_engine.py: Natural language processing"
+  - "intent_classifier.py: Intent detection system"
+  - "entity_extractor.py: Information extraction"
+  - "conversation_manager.py: State management"
+  - "integrations.py: API integration layer"
+  - "prompts.py: Prompt templates and configurations"
+  - "config.py: AI configuration and settings"
+
+openai_integration:
+  - "Use OpenAI ChatKit for conversation management"
+  - "Implement OpenAI Agents SDK for task execution"
+  - "Handle rate limiting and API quotas"
+  - "Implement proper error handling for API calls"
+  - "Cache responses where appropriate"
+  - "Monitor API usage and costs"
+
+conversation_design:
+  - "Design natural conversation flows"
+  - "Handle ambiguous user inputs"
+  - "Provide helpful clarifications"
+  - "Maintain context across turns"
+  - "Support for follow-up questions"
+  - "Handle conversation timeouts"
+
+testing_requirements:
+  - "Test intent classification accuracy"
+  - "Validate entity extraction"
+  - "Test conversation flows"
+  - "Verify API integrations work"
+  - "Test error handling scenarios"
+  - "Validate security implementations"
+
+validation_steps:
+  - "Test natural language understanding accuracy"
+  - "Verify all TODO operations work via chat"
+  - "Validate conversation state management"
+  - "Test error handling and fallbacks"
+  - "Review security configurations"
+  - "Validate API integration correctness"

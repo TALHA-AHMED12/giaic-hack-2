@@ -1,0 +1,64 @@
+# FastAPI Backend Development Skill
+# Skill for implementing FastAPI applications with proper API design
+
+name: "fastapi_development"
+description: "Skill for developing FastAPI applications with proper API design, security, and documentation"
+
+requirements:
+  - "FastAPI 0.100+ with Pydantic v2"
+  - "Proper API design following REST principles"
+  - "Type hints with Pydantic models"
+  - "Automatic OpenAPI documentation"
+  - "Proper error handling and validation"
+  - "Security best practices implementation"
+
+implementation_guidelines:
+  - "Use Pydantic models for request/response validation"
+  - "Implement proper dependency injection"
+  - "Use async/await for I/O operations"
+  - "Follow REST API design principles"
+  - "Implement proper authentication/authorization"
+  - "Handle CORS and security headers"
+  - "Use middleware for cross-cutting concerns"
+
+api_structure:
+  - "Create modular API routers"
+  - "Use Pydantic schemas for validation"
+  - "Implement proper status codes"
+  - "Handle query parameters and pagination"
+  - "Implement proper request/response models"
+  - "Add API versioning if needed"
+
+files_to_create:
+  - "main.py: FastAPI application entry point"
+  - "models.py: Pydantic models for API validation"
+  - "schemas.py: Request/response schemas"
+  - "database.py: Database connection setup"
+  - "dependencies.py: Dependency injection"
+  - "middleware.py: Application middleware"
+  - "routers/: API route handlers"
+  - "config.py: Application configuration"
+  - "security.py: Authentication and authorization"
+
+database_integration:
+  - "Implement proper database session management"
+  - "Use connection pooling"
+  - "Handle transactions properly"
+  - "Implement proper error handling for DB operations"
+  - "Use async database drivers when available"
+
+testing_requirements:
+  - "Write unit tests for API endpoints"
+  - "Write integration tests with test database"
+  - "Test all HTTP methods and status codes"
+  - "Validate request/response schemas"
+  - "Test error handling scenarios"
+  - "Test security implementations"
+
+validation_steps:
+  - "Run type checking with mypy"
+  - "Execute all tests"
+  - "Validate API documentation generation"
+  - "Test security implementations"
+  - "Validate performance under load"
+  - "Review API design consistency"

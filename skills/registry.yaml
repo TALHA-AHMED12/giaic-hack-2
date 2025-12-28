@@ -1,0 +1,198 @@
+# Skills Registry
+# Central registry of all available skills for the TODO App project
+
+version: "1.0.0"
+project: "TODO App Evolution"
+created: "2025-12-27"
+
+skills:
+  python:
+    - name: "python_development"
+      path: "./python/python-development.skill"
+      description: "Skill for developing Python applications with proper structure, testing, and documentation"
+      phases: ["Phase I"]
+      dependencies: ["Python 3.9+", "uv", "pytest", "mypy", "flake8"]
+
+    - name: "cli_interface_design"
+      path: "./python/cli-interface.skill"
+      description: "Skill for designing command-line interfaces with proper user interaction patterns"
+      phases: ["Phase I"]
+      dependencies: ["Python 3.9+", "uv", "argparse or click library"]
+
+  web_frontend:
+    - name: "nextjs_development"
+      path: "./web-frontend/nextjs-development.skill"
+      description: "Skill for developing Next.js applications with proper component architecture and state management"
+      phases: ["Phase II"]
+      dependencies: ["Node.js 18+", "Next.js 14+", "TypeScript", "React Query/SWR"]
+
+    - name: "react_component_design"
+      path: "./web-frontend/react-components.skill"
+      description: "Skill for designing reusable React components with proper architecture"
+      phases: ["Phase II"]
+      dependencies: ["React 18+", "TypeScript", "Tailwind CSS or similar"]
+
+  web_backend:
+    - name: "fastapi_development"
+      path: "./web-backend/fastapi-development.skill"
+      description: "Skill for developing FastAPI applications with proper API design, security, and documentation"
+      phases: ["Phase II"]
+      dependencies: ["FastAPI 0.100+", "Pydantic v2", "SQLModel", "asyncpg"]
+
+    - name: "rest_api_design"
+      path: "./web-backend/rest-api.skill"
+      description: "Skill for designing RESTful APIs with proper endpoints and documentation"
+      phases: ["Phase II"]
+      dependencies: ["FastAPI", "Pydantic", "OpenAPI"]
+
+  database:
+    - name: "sqlmodel_database"
+      path: "./database/sqlmodel.skill"
+      description: "Skill for implementing SQLModel database models and operations"
+      phases: ["Phase II"]
+      dependencies: ["SQLModel", "SQLAlchemy", "Neon DB"]
+
+    - name: "database_schema_design"
+      path: "./database/schema-design.skill"
+      description: "Skill for designing database schemas with proper relationships and optimization"
+      phases: ["Phase II"]
+      dependencies: ["SQLModel", "Database design principles"]
+
+  ai_ml:
+    - name: "ai_chatbot_development"
+      path: "./ai-ml/ai-chatbot.skill"
+      description: "Skill for implementing AI-powered chatbots using OpenAI APIs and natural language processing"
+      phases: ["Phase III"]
+      dependencies: ["OpenAI API", "ChatKit", "Agents SDK", "Natural language libraries"]
+
+    - name: "nlp_processing"
+      path: "./ai-ml/nlp-processing.skill"
+      description: "Skill for natural language processing and understanding"
+      phases: ["Phase III"]
+      dependencies: ["NLP libraries", "Machine learning frameworks"]
+
+  devops:
+    - name: "docker_containerization"
+      path: "./devops/docker.skill"
+      description: "Skill for containerizing applications with Docker"
+      phases: ["Phase IV", "Phase V"]
+      dependencies: ["Docker", "Docker Compose"]
+
+    - name: "kubernetes_deployment"
+      path: "./devops/k8s-deployment.skill"
+      description: "Skill for deploying applications to Kubernetes with proper configuration and monitoring"
+      phases: ["Phase IV", "Phase V"]
+      dependencies: ["Kubernetes", "Helm", "kubectl"]
+
+  cloud:
+    - name: "cloud_deployment"
+      path: "./cloud/cloud-deployment.skill"
+      description: "Skill for deploying applications to cloud platforms with advanced services"
+      phases: ["Phase V"]
+      dependencies: ["Cloud platform CLI", "Kafka", "Dapr", "Monitoring tools"]
+
+    - name: "doks_deployment"
+      path: "./cloud/doks-deployment.skill"
+      description: "Skill for deploying to DigitalOcean Kubernetes Service"
+      phases: ["Phase V"]
+      dependencies: ["DigitalOcean CLI", "DOKS", "Kubectl"]
+
+agents:
+  phase_i:
+    - name: "phase-i-python-agent"
+      path: "../agents/phase-i/python-agent.yaml"
+      description: "Agent for implementing Phase I: Basic In-Memory Python Console TODO App"
+      skills_required: ["python_development", "cli_interface_design"]
+
+  phase_ii:
+    - name: "phase-ii-fullstack-agent"
+      path: "../agents/phase-ii/fullstack-agent.yaml"
+      description: "Agent for implementing Phase II: Full-Stack Web Application"
+      skills_required: ["nextjs_development", "fastapi_development", "sqlmodel_database"]
+
+    - name: "phase-ii-database-agent"
+      path: "../agents/phase-ii/database-agent.yaml"
+      description: "Agent for implementing database models and Neon DB integration"
+      skills_required: ["sqlmodel_database", "database_schema_design"]
+
+  phase_iii:
+    - name: "phase-iii-ai-chatbot-agent"
+      path: "../agents/phase-iii/ai-chatbot-agent.yaml"
+      description: "Agent for implementing Phase III: AI-Powered Todo Chatbot"
+      skills_required: ["ai_chatbot_development", "nlp_processing"]
+
+  phase_iv:
+    - name: "phase-iv-k8s-deployment-agent"
+      path: "../agents/phase-iv/k8s-deployment-agent.yaml"
+      description: "Agent for implementing Phase IV: Local Kubernetes Deployment"
+      skills_required: ["docker_containerization", "kubernetes_deployment"]
+
+  phase_v:
+    - name: "phase-v-cloud-deployment-agent"
+      path: "../agents/phase-v/cloud-deployment-agent.yaml"
+      description: "Agent for implementing Phase V: Advanced Cloud Deployment"
+      skills_required: ["cloud_deployment", "doks_deployment"]
+
+  orchestrator:
+    - name: "todo-app-project-orchestrator"
+      path: "../agents/project-orchestrator.yaml"
+      description: "Master orchestrator agent for the complete 5-phase TODO App Evolution project"
+      skills_required: ["project_coordination", "specification_management", "quality_assurance"]
+
+  mcp_integrations:
+    - name: "github-integration-agent-phase-i"
+      path: "../agents/phase-i/github-integration-agent.yaml"
+      description: "Agent for managing GitHub operations during Phase I development"
+      skills_required: ["github_mcp_integration", "git_workflow_management"]
+
+    - name: "playwright-testing-agent-phase-ii"
+      path: "../agents/phase-ii/playwright-testing-agent.yaml"
+      description: "Agent for implementing end-to-end testing for Phase II web application"
+      skills_required: ["playwright_automation", "e2e_testing"]
+
+    - name: "context7-enhancement-agent"
+      path: "../agents/context7-enhancement-agent.yaml"
+      description: "Agent for managing enhanced context during development"
+      skills_required: ["context_management", "memory_persistence"]
+
+    - name: "sequential-thinking-agent"
+      path: "../agents/sequential-thinking-agent.yaml"
+      description: "Agent for managing complex reasoning and planning"
+      skills_required: ["sequential_reasoning", "workflow_orchestration"]
+
+mcp_integration_skills:
+  github:
+    - name: "github_mcp_integration"
+      path: "./mcp-integrations/github-mcp.skill"
+      description: "Skill for integrating with GitHub services using MCP server"
+      phases: ["All Phases"]
+      dependencies: ["GitHub MCP server", "Authentication tokens", "Repository access"]
+
+  playwright:
+    - name: "playwright_automation"
+      path: "./mcp-integrations/playwright-mcp.skill"
+      description: "Skill for implementing browser automation and end-to-end testing"
+      phases: ["Phase II", "Phase III", "Phase IV", "Phase V"]
+      dependencies: ["Playwright MCP server", "Browser engines", "Test environment"]
+
+  context7:
+    - name: "context_management"
+      path: "./mcp-integrations/context7-mcp.skill"
+      description: "Skill for managing enhanced context and memory"
+      phases: ["All Phases"]
+      dependencies: ["Context7 MCP server", "Persistent storage", "Context indexing"]
+
+  sequential_thinking:
+    - name: "sequential_reasoning"
+      path: "./mcp-integrations/sequential-thinking-mcp.skill"
+      description: "Skill for managing complex sequential reasoning and multi-step problem solving"
+      phases: ["All Phases"]
+      dependencies: ["Sequential Thinking MCP server", "Workflow engine", "State management"]
+
+workflow_integration:
+  - "All skills should be callable from Claude Code"
+  - "Skills should follow Spec-Driven Development methodology"
+  - "Skills should generate proper documentation and tests"
+  - "Skills should validate their outputs before completion"
+  - "MCP integration skills should enhance development workflow"
+  - "All agents should leverage MCP capabilities where appropriate"

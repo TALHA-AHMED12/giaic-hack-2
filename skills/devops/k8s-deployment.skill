@@ -1,0 +1,69 @@
+# Kubernetes Deployment Skill
+# Skill for containerizing applications and deploying to Kubernetes
+
+name: "k8s_deployment"
+description: "Skill for containerizing applications and deploying to Kubernetes with proper configuration and monitoring"
+
+requirements:
+  - "Docker for containerization"
+  - "Kubernetes cluster (Minikube/local or cloud)"
+  - "Helm for package management"
+  - "Proper resource allocation and limits"
+  - "Health checks and monitoring setup"
+  - "Security best practices implementation"
+
+containerization_requirements:
+  - "Create optimized multi-stage Docker builds"
+  - "Use minimal base images"
+  - "Implement proper environment configuration"
+  - "Set up logging and monitoring endpoints"
+  - "Handle secrets securely"
+  - "Optimize image size and build time"
+
+kubernetes_deployment:
+  - "Create proper Deployment configurations"
+  - "Set up Services for internal communication"
+  - "Configure Ingress for external access"
+  - "Implement ConfigMaps and Secrets"
+  - "Set up Resource quotas and limits"
+  - "Configure Horizontal Pod Autoscaling"
+
+files_to_create:
+  - "Dockerfile: Container definition"
+  - "docker-compose.yml: Local development setup"
+  - "k8s/: Kubernetes manifest files"
+  - "charts/: Helm chart configurations"
+  - "scripts/: Deployment automation scripts"
+  - "kustomize/: Kustomize configurations (optional)"
+
+monitoring_and_logging:
+  - "Set up health and readiness probes"
+  - "Configure application logging"
+  - "Implement metrics collection"
+  - "Set up monitoring dashboards"
+  - "Configure alerting rules"
+  - "Implement distributed tracing"
+
+security_considerations:
+  - "Use non-root user in containers"
+  - "Implement network policies"
+  - "Configure RBAC properly"
+  - "Handle secrets securely"
+  - "Scan images for vulnerabilities"
+  - "Implement pod security policies"
+
+testing_requirements:
+  - "Test container builds locally"
+  - "Validate Kubernetes manifests"
+  - "Test deployment in staging environment"
+  - "Verify health checks work properly"
+  - "Test scaling behavior"
+  - "Validate security configurations"
+
+validation_steps:
+  - "Validate Docker images build successfully"
+  - "Verify Kubernetes manifests are valid"
+  - "Test deployment in local cluster"
+  - "Validate health checks and monitoring"
+  - "Review security configurations"
+  - "Verify resource allocation is appropriate"

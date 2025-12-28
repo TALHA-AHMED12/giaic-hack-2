@@ -1,0 +1,61 @@
+# Context7 MCP Integration Skill
+# Skill for managing enhanced context using Context7 MCP server
+
+name: "context_management"
+description: "Skill for managing enhanced context and memory using Context7 MCP server"
+
+requirements:
+  - "Context7 MCP server connection established"
+  - "Persistent storage configured"
+  - "Context indexing system available"
+  - "Memory management properly configured"
+  - "Context relevance algorithms available"
+  - "Knowledge base properly initialized"
+
+capabilities:
+  - "Context preservation across sessions"
+  - "Knowledge base management"
+  - "Context summarization and compression"
+  - "Context relevance ranking"
+  - "Memory persistence and retrieval"
+  - "Context sharing between tools"
+  - "Knowledge evolution tracking"
+
+implementation_guidelines:
+  - "Maintain context separation between projects"
+  - "Handle context evolution and updates"
+  - "Implement proper context cleanup"
+  - "Manage context size and performance"
+  - "Preserve important context over time"
+  - "Handle context conflicts appropriately"
+
+context_management:
+  - "Track project specifications and plans"
+  - "Maintain codebase knowledge"
+  - "Preserve architectural decisions"
+  - "Track implementation patterns"
+  - "Maintain test strategies"
+  - "Preserve deployment knowledge"
+  - "Store lessons learned and best practices"
+
+files_to_create:
+  - ".context7/: Context storage directory"
+  - "context/index.json: Context index"
+  - "context/knowledge.db: Knowledge base"
+  - "context/config.yaml: Context configuration"
+
+validation_steps:
+  - "Verify context persistence across sessions"
+  - "Test context retrieval accuracy"
+  - "Validate context relevance ranking"
+  - "Check memory usage and performance"
+  - "Verify context evolution handling"
+  - "Test context sharing between tools"
+
+context_strategies:
+  - "Context summarization for long-running projects"
+  - "Relevance-based context prioritization"
+  - "Context lifecycle management"
+  - "Cross-project context sharing"
+  - "Context backup and recovery"
+  - "Context security and privacy"

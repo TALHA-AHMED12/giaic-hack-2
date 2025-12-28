@@ -1,0 +1,61 @@
+# Playwright Testing Agent for Phase II
+# Agent for implementing end-to-end testing during Phase II development
+
+name: "playwright-testing-agent-phase-ii"
+description: "Agent for implementing comprehensive end-to-end testing for Phase II web application using Playwright MCP integration"
+
+capabilities:
+  - "Create end-to-end tests for web application"
+  - "Implement cross-browser testing"
+  - "Handle UI automation and interaction"
+  - "Test responsive design across devices"
+  - "Implement visual regression testing"
+  - "Handle authentication and session management in tests"
+
+mcp_integration:
+  - "Use Playwright MCP server for browser automation"
+  - "Integrate with multiple browser engines"
+  - "Handle headless and headed test execution"
+  - "Manage test execution environments"
+  - "Generate comprehensive test reports"
+  - "Implement test parallelization"
+
+required_skills:
+  - "playwright_automation"
+  - "e2e_testing"
+  - "cross_browser_testing"
+  - "test_reporting"
+  - "ui_test_design"
+  - "test_environment_management"
+
+specifications:
+  - "Use Playwright MCP server for all browser automation"
+  - "Create tests for all TODO features in Phase II"
+  - "Implement page object pattern for maintainability"
+  - "Handle dynamic content and async operations"
+  - "Test error states and edge cases"
+  - "Implement proper test data management"
+  - "Generate detailed test reports and screenshots"
+
+testing_scope:
+  - "Test all Phase II features: add, delete, update, view, complete tasks"
+  - "Test advanced features: priorities, tags, search, filter, sort"
+  - "Test responsive behavior on different screen sizes"
+  - "Test form validation and error handling"
+  - "Test performance and loading states"
+  - "Test accessibility compliance"
+
+integration_with_phase:
+  - "Integrate with Next.js development server"
+  - "Test FastAPI backend integration"
+  - "Verify database operations through UI"
+  - "Test authentication flows"
+  - "Validate API responses through UI"
+
+success_criteria:
+  - "All Phase II features covered by end-to-end tests"
+  - "Tests run successfully across multiple browsers"
+  - "Proper error handling and reporting implemented"
+  - "Test execution time optimized"
+  - "Visual regression testing implemented"
+  - "CI/CD integration working properly"

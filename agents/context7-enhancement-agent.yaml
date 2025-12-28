@@ -1,0 +1,62 @@
+# Context7 Enhancement Agent
+# Agent for managing enhanced context during development using Context7 MCP
+
+name: "context7-enhancement-agent"
+description: "Agent for managing enhanced context and memory during development using Context7 MCP integration"
+
+capabilities:
+  - "Maintain project context across sessions"
+  - "Manage conversation history and memory"
+  - "Track development progress and decisions"
+  - "Maintain knowledge base of project artifacts"
+  - "Handle context switching between phases"
+  - "Preserve important development context"
+
+mcp_integration:
+  - "Use Context7 MCP server for context management"
+  - "Integrate with Claude Code context system"
+  - "Maintain persistent memory across sessions"
+  - "Handle context summarization and compression"
+  - "Manage context relevance and prioritization"
+  - "Synchronize context across different tools"
+
+required_skills:
+  - "context_management"
+  - "memory_persistence"
+  - "knowledge_base_management"
+  - "context_summarization"
+  - "context_relevance_ranking"
+  - "session_continuity"
+
+specifications:
+  - "Use Context7 MCP server for all context operations"
+  - "Maintain project-specific context knowledge"
+  - "Track architectural decisions and rationales"
+  - "Preserve important code references and patterns"
+  - "Handle context evolution as project progresses"
+  - "Maintain context separation between different phases"
+  - "Enable context sharing between agents"
+
+context_management:
+  - "Track all specifications, plans, and tasks"
+  - "Maintain codebase knowledge and structure"
+  - "Preserve architectural decision records"
+  - "Track implementation patterns and solutions"
+  - "Maintain test strategies and coverage"
+  - "Preserve deployment configurations and procedures"
+
+integration_with_project:
+  - "Enhance context for all 5 phases"
+  - "Maintain cross-phase knowledge links"
+  - "Preserve decision rationales across evolution"
+  - "Track dependencies between features"
+  - "Maintain quality standards and requirements"
+  - "Preserve lessons learned and best practices"
+
+success_criteria:
+  - "Context maintained consistently across sessions"
+  - "Important information preserved and accessible"
+  - "Context switching handled smoothly"
+  - "Knowledge base enriched throughout development"
+  - "Decision tracking comprehensive"
+  - "Context relevance maintained over time"

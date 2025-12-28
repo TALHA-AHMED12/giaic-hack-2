@@ -1,0 +1,62 @@
+# Playwright MCP Integration Skill
+# Skill for implementing browser automation using Playwright MCP server
+
+name: "playwright_automation"
+description: "Skill for implementing browser automation and end-to-end testing using Playwright MCP server"
+
+requirements:
+  - "Playwright MCP server connection established"
+  - "Browser engines properly installed"
+  - "Test environment configured"
+  - "Application under test accessible"
+  - "Test data properly prepared"
+  - "Reporting tools configured"
+
+capabilities:
+  - "Cross-browser testing automation"
+  - "UI interaction and validation"
+  - "Form testing and validation"
+  - "API testing through UI"
+  - "Visual regression testing"
+  - "Performance testing"
+  - "Accessibility testing"
+
+implementation_guidelines:
+  - "Use page object pattern for maintainability"
+  - "Implement proper test data management"
+  - "Handle dynamic content and async operations"
+  - "Create reusable test components"
+  - "Implement proper error handling"
+  - "Generate comprehensive test reports"
+
+files_to_create:
+  - "tests/e2e/: End-to-end test files"
+  - "tests/pages/: Page object files"
+  - "tests/data/: Test data files"
+  - "playwright.config.ts: Playwright configuration"
+  - "tests/reports/: Test report outputs"
+
+testing_scope:
+  - "All application features and workflows"
+  - "Cross-browser compatibility"
+  - "Responsive design validation"
+  - "Form validation and error handling"
+  - "Performance under load"
+  - "Accessibility compliance"
+  - "Security validation"
+
+validation_steps:
+  - "Verify test execution across browsers"
+  - "Validate test stability and reliability"
+  - "Check test coverage of features"
+  - "Review test reports and screenshots"
+  - "Verify error handling in tests"
+  - "Test performance and execution time"
+
+best_practices:
+  - "Use explicit waits instead of timeouts"
+  - "Implement proper test isolation"
+  - "Handle test data appropriately"
+  - "Use meaningful test descriptions"
+  - "Implement proper cleanup"
+  - "Optimize test execution time"
